@@ -1,0 +1,31 @@
+fashion_mnist_pertype
+：fashon_mnist訓練データセットをラベル毎に分けた正規化前の48*48データ
+
+fashon_mnist_pertype_224
+：fashion_mnist訓練データセットをラベルごとに分けた正規化前の224*224のデータ
+
+fashion_mnist_pertype_feature
+：fashon_mnist訓練データセットをラベル毎に分けたVGG16で特徴抽出済みの正規化前の48*48データ
+
+fashion_mnist_pertype_feature_test
+：fashon_mnistテストデータセットをラベル毎に分けたVGG16で特徴抽出済みの正規化前の48*48データ
+
+fashion_mnist_pertype_test
+：fashon_mnistテストデータセットをラベル毎に分けた正規化前の28*28データ
+
+fashion_mnist（使わない）
+：fashon_mnistの元のデータ
+
+fashion-mnist-images
+：fashion_mnistをバイキュービック補間法で48*48にリサイズして画像にして保存したもの
+
+fashoin_mnist_48_48_BICUBIC.npy
+：fashon_mnistを48*48にバイキュービック補間法でリサイズして保存したもの
+　ラベル毎に分けてはいない
+
+fashoin_mnist_bottleneck_48_48.npy
+：fashon_mnistを48*48にバイキュービック補間法でリサイズしてVGG16で特徴抽出して保存したもの
+　ラベル毎に分けてはいない
+
+fashion_mnist_test.npy（使わない）
+：fashon_mnistを保存できるかテストしたもの
